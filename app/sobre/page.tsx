@@ -1,3 +1,6 @@
+import Image from "next/image"
+
+
 export default function SobrePage(){
     return(
 
@@ -6,7 +9,7 @@ export default function SobrePage(){
                 <h1 className="mb-8 text-3xl font-bold">Sobre nós</h1>
             </div>
             <div className="grid grid-cols-2 gap-8 items-center">
-                <image
+                <Image
                 src="/logotipo-restaurante.jpg"
                 alt="Restaurante"
                 width={600}
